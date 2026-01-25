@@ -11,35 +11,26 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Information Science, Japan Advanced Institute of Science and Technology, September/2022
+* M.S. in Information Science, Japan Advanced Institute of Science and Technology, March/2019
+* B.S. in Mechanical Engineering, Qingdao University of Science and Technology, Augest/2016
 
-Work experience
+Working experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* December 2025: Research Assistant Professor at Japan Advanced Institute of Science and Technology
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* April 2025: Senior Researcher
+  * Ritsumeikan University
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Octomber 2022: Post-Doctoral Researcher
+  * Japan Advanced Institute of Science and Technology
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Python
+* ROS2
+* CoppeliaSim
+* IsaacSim
 
 Publications
 ======
