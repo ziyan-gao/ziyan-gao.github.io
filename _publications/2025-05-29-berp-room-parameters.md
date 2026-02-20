@@ -1,6 +1,7 @@
 ---
 title: "Berp: A blind estimator of room parameters for single-channel noisy speech signals"
 collection: publications
+category: manuscripts
 author_position: "Co-Author"
 permalink: /publication/2025-05-29-berp-room-parameters
 excerpt: 'Proposes BERP, a universal approach to blindly estimate room acoustical parameters, room geometrical parameters, and occupancy levels from noisy single-channel speech signals using attention mechanisms.'

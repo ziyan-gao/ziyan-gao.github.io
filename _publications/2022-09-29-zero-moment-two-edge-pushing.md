@@ -1,6 +1,7 @@
 ---
 title: "Zero moment two edge pushing of novel objects with center of mass estimation"
 collection: publications
+category: manuscripts
 author_position: "First Author"
 permalink: /publication/2022-09-29-zero-moment-two-edge-pushing
 excerpt: 'Pushing is one of the fundamental nonprehensile manipulation skills. This work estimates the center of mass of an object and proposes the Zero Moment Two Edge Pushing method to translate a novel object without rotation to a goal pose.'

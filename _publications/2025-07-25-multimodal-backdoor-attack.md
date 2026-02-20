@@ -1,6 +1,7 @@
 ---
 title: "Shortcut-enhanced Multimodal Backdoor Attack in Vision-guided Robot Grasping"
 collection: publications
+category: manuscripts
 author_position: "Co-Author"
 permalink: /publication/2025-07-25-multimodal-backdoor-attack
 excerpt: 'Proposes SEMBA, a novel backdoor attack method on multimodal vision-guided robot grasping in high-clutter scenarios, using Multimodal Shortcut Searching Algorithm and Multimodal Trigger Generation.'

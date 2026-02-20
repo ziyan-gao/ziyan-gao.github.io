@@ -1,6 +1,7 @@
 ---
 title: "On the generality and application of mason's voting theorem to center of mass estimation for pure translational motion"
 collection: publications
+category: manuscripts
 author_position: "First Author"
 permalink: /publication/2024-04-22-mason-voting-theorem
 excerpt: 'Extends Mason Voting Theorem to object center of mass estimation in the absence of accurate information on friction and object shape using a position-controlled robot arm and vision sensor.'

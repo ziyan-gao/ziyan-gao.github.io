@@ -1,6 +1,7 @@
 ---
 title: "A few-shot learning framework for planar pushing of unknown objects"
 collection: publications
+category: manuscripts
 author_position: "First Author"
 permalink: /publication/2022-07-planar-pushing-few-shot
 excerpt: 'Presents a few-shot learning framework for robot planar pushing with a new large dataset and novel representation for pushing primitives, including computation efficient planning method.'

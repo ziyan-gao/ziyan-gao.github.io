@@ -1,6 +1,7 @@
 ---
 title: "Predicting hemodynamic parameters based on arterial blood pressure waveform using self-supervised learning and fine-tuning"
 collection: publications
+category: manuscripts
 author_position: "Co-Author"
 permalink: /publication/2025-05-hemodynamic-parameters
 excerpt: 'Proposes SSHemo, a self-supervised generative learning model for hemodynamic parameter prediction from arterial blood pressure waveforms, addressing data scarcity through self-supervised learning.'

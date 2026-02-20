@@ -1,6 +1,7 @@
 ---
 title: "Hierarchical Motion Field Alignment for Robust Optical Flow Estimation"
 collection: publications
+category: manuscripts
 author_position: "Co-Author"
 permalink: /publication/2025-04-22-optical-flow-estimation
 excerpt: 'Proposes a learning-based model with Hierarchical Motion Field Alignment module and Correlation Self-Attention module for improved optical flow estimation, particularly for small and fast-moving objects.'
