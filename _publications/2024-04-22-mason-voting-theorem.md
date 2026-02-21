@@ -148,6 +148,15 @@ This work extends Mason's Voting Theorem to object center of mass estimation dur
   </p>
 </div>
 
+<div class="video-container">
+  <div class="video-title">Video 2: Object Displacement to Target Location using Modified Zero Moment Two Edge Pushing</div>
+  <iframe src="https://1drv.ms/v/c/02d31ff9b580407b/IQACACWMGN-BQZLJ_a4BsSRtAXn4ixXG6ToyYI6bPsZx1pk?e=BwFEZi&embed=true" width="100%" height="480" allow="autoplay"></iframe>
+  
+  <p style="margin-top: 15px; color: #555; font-size: 14px;">
+    <strong>Description:</strong> This video demonstrates how objects are efficiently displaced to target locations using modified zero moment two edge pushing. After the center of mass has been estimated using Mason Voting Theorem, the control strategy leverages this knowledge to plan and execute pushing motions that move the object to desired goal positions while maintaining stability and predictability throughout the manipulation task.
+  </p>
+</div>
+
 ## 📄 Publication Details
 
 **Authors:** Ziyan Gao, Alp Elibol, Nak Young Chong
