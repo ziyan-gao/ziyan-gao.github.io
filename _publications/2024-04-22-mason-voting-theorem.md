@@ -85,6 +85,20 @@ citation: 'Gao, Z., Elibol, A., & Chong, N. Y. (2024). On the generality and app
   font-weight: bold;
   font-size: 16px;
 }
+
+.video-container {
+  margin: 20px 0;
+  padding: 20px;
+  background: #f0f0f0;
+  border-radius: 4px;
+}
+
+.video-title {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #333;
+}
 </style>
 
 <div class="project-header">
@@ -121,6 +135,17 @@ This work extends Mason's Voting Theorem to object center of mass estimation dur
 <div class="highlight-box">
   <strong>Figure 1: Mason Voting Theorem Application</strong><br>
   The proposed approach demonstrates how Mason Voting Theorem can be generalized to estimate the center of mass of objects under pure translational motion. By applying pushing motions at various contact points and observing the resulting object trajectories using vision sensing, the method aggregates these "votes" to accurately determine the center of mass, even without precise knowledge of friction coefficients or object geometry. This voting-based approach provides robustness and generalizability across different object shapes and surface properties.
+</div>
+
+## 🎥 Demonstration Videos
+
+<div class="video-container">
+  <div class="video-title">Video 1: Center of Mass Estimation with Iterative Pushing</div>
+  <iframe src="https://1drv.ms/v/c/02d31ff9b580407b/IQACACWMGN-BQZLJ_a4BsSRtAXn4ixXG6ToyYI6bPsZx1pk?e=BwFEZi&embed=true" width="100%" height="480" allow="autoplay"></iframe>
+  
+  <p style="margin-top: 15px; color: #555; font-size: 14px;">
+    <strong>Description:</strong> This video demonstrates how the object center of mass (CoM) is estimated through iterative pusher-object interactions. The pushing actions are selected based on QP-EVT (Quadratic Program - Entropy and Variance Trade-off) based sampling strategy, which efficiently explores the object's contact surface to gather informative pushing "votes". The system uses vision sensing to track object motion and aggregates the voting results to accurately estimate the CoM without requiring prior knowledge of friction properties or object geometry.
+  </p>
 </div>
 
 ## 📄 Publication Details
