@@ -6,9 +6,9 @@ author_position: "First Author"
 permalink: /publication/2025-07-12-online-3d-bin-packing
 excerpt: 'Proposes a novel framework that integrates packing policy with structural stability validation and heuristic planning, introducing Load Bearable Convex Polygon for computationally efficient stable loading positions.'
 date: 2025-07-12
-venue: 'arXiv preprint'
+venue: 'Robotics and Computer-Integrated Manufacturing (Under Review - Second Round)'
 paperurl: 'https://arxiv.org/abs/2507.09123'
-citation: 'Gao, Z., Wang, L., Kong, Y., & Chong, N. Y. (2025). Online 3D Bin Packing with Fast Stability Validation and Stable Rearrangement Planning. arXiv preprint arXiv:2507.09123.'
+citation: 'Gao, Z., Wang, L., Kong, Y., & Chong, N. Y. (2025). Online 3D Bin Packing with Fast Stability Validation and Stable Rearrangement Planning. Robotics and Computer-Integrated Manufacturing (Under Review).'
 ---
 
 <style>
@@ -159,8 +159,8 @@ This work proposes a novel framework that integrates packing policy with structu
 
 **Authors:** Ziyan Gao, Lijun Wang, Yuntao Kong, Nak Young Chong
 
-**Venue:** arXiv preprint
+**Venue:** Robotics and Computer-Integrated Manufacturing
 
-**Date:** July 12, 2025
+**Status:** Under Review (Second Round)
 
-**Paper:** [Read on arXiv](https://arxiv.org/abs/2507.09123)
+**ArXiv:** [Read on arXiv](https://arxiv.org/abs/2507.09123)
