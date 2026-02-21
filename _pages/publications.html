@@ -15,16 +15,52 @@ author_profile: true
 {% if site.publication_category %}
   {% for category in site.publication_category  %}
     {% assign title_shown = false %}
+    
+    <!-- First Author Papers -->
+    {% assign first_author_count = 0 %}
     {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
+      {% if post.category != category[0] or post.author_position != "First Author" %}
         {% continue %}
       {% endif %}
+      {% assign first_author_count = first_author_count | plus: 1 %}
+    {% endfor %}
+    
+    {% if first_author_count > 0 %}
       {% unless title_shown %}
         <h2>{{ category[1].title }}</h2><hr />
         {% assign title_shown = true %}
       {% endunless %}
-      {% include archive-single.html %}
+      <h3>First Author</h3>
+      {% for post in site.publications reversed %}
+        {% if post.category != category[0] or post.author_position != "First Author" %}
+          {% continue %}
+        {% endif %}
+        {% include archive-single.html %}
+      {% endfor %}
+    {% endif %}
+    
+    <!-- Co-Author Papers -->
+    {% assign co_author_count = 0 %}
+    {% for post in site.publications reversed %}
+      {% if post.category != category[0] or post.author_position != "Co-Author" %}
+        {% continue %}
+      {% endif %}
+      {% assign co_author_count = co_author_count | plus: 1 %}
     {% endfor %}
+    
+    {% if co_author_count > 0 %}
+      {% unless title_shown %}
+        <h2>{{ category[1].title }}</h2><hr />
+        {% assign title_shown = true %}
+      {% endunless %}
+      <h3>Co-Author</h3>
+      {% for post in site.publications reversed %}
+        {% if post.category != category[0] or post.author_position != "Co-Author" %}
+          {% continue %}
+        {% endif %}
+        {% include archive-single.html %}
+      {% endfor %}
+    {% endif %}
   {% endfor %}
 {% else %}
   {% for post in site.publications reversed %}
