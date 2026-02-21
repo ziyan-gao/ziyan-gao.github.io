@@ -141,7 +141,7 @@ This work extends Mason's Voting Theorem to object center of mass estimation dur
 
 <div class="video-container">
   <div class="video-title">Video 1: Center of Mass Estimation with Iterative Pushing</div>
-  <iframe src="https://1drv.ms/v/c/02d31ff9b580407b/IQACACWMGN-BQZLJ_a4BsSRtAXn4ixXG6ToyYI6bPsZx1pk?e=BwFEZi&embedding=true" width="100%" height="480" allow="autoplay" allowFullScreen="true" frameborder="0"></iframe>
+  <a href="https://1drv.ms/v/c/02d31ff9b580407b/IQACACWMGN-BQZLJ_a4BsSRtAXn4ixXG6ToyYI6bPsZx1pk?e=BwFEZi" target="_blank" style="display: inline-block; padding: 12px 20px; background: #667eea; color: white; border-radius: 4px; text-decoration: none; font-weight: 600;">▶ Watch Video 1</a>
   
   <p style="margin-top: 15px; color: #555; font-size: 14px;">
     <strong>Description:</strong> This video demonstrates how the object center of mass (CoM) is estimated through iterative pusher-object interactions. The pushing actions are selected based on QP-EVT (Quadratic Program - Entropy and Variance Trade-off) based sampling strategy, which efficiently explores the object's contact surface to gather informative pushing "votes". The system uses vision sensing to track object motion and aggregates the voting results to accurately estimate the CoM without requiring prior knowledge of friction properties or object geometry.
@@ -150,7 +150,7 @@ This work extends Mason's Voting Theorem to object center of mass estimation dur
 
 <div class="video-container">
   <div class="video-title">Video 2: Object Displacement to Target Location using Modified Zero Moment Two Edge Pushing</div>
-  <iframe src="https://1drv.ms/v/c/02d31ff9b580407b/IQA1ZEvS36mYR7nYT-AU1wVTAeSaNV02m1zEc9mNVwlqoMk?e=VzgPez&embedding=true" width="100%" height="480" allow="autoplay" allowFullScreen="true" frameborder="0"></iframe>
+  <a href="https://1drv.ms/v/c/02d31ff9b580407b/IQA1ZEvS36mYR7nYT-AU1wVTAeSaNV02m1zEc9mNVwlqoMk?e=VzgPez" target="_blank" style="display: inline-block; padding: 12px 20px; background: #667eea; color: white; border-radius: 4px; text-decoration: none; font-weight: 600;">▶ Watch Video 2</a>
   
   <p style="margin-top: 15px; color: #555; font-size: 14px;">
     <strong>Description:</strong> This video demonstrates how objects are efficiently displaced to target locations using modified zero moment two edge pushing. After the center of mass has been estimated using Mason Voting Theorem, the control strategy leverages this knowledge to plan and execute pushing motions that move the object to desired goal positions while maintaining stability and predictability throughout the manipulation task.
@@ -159,7 +159,7 @@ This work extends Mason's Voting Theorem to object center of mass estimation dur
 
 <div class="video-container">
   <div class="video-title">Video 3: IROS 2024 Oral Presentation</div>
-  <iframe src="https://1drv.ms/v/c/02d31ff9b580407b/IQA8_wy67Y5dSrIAtE9WOHGkAYVyVU469YfOHOUW4GiBSf4?e=d91cYS&embedding=true" width="100%" height="480" allow="autoplay" allowFullScreen="true" frameborder="0"></iframe>
+  <a href="https://1drv.ms/v/c/02d31ff9b580407b/IQA8_wy67Y5dSrIAtE9WOHGkAYVyVU469YfOHOUW4GiBSf4?e=d91cYS" target="_blank" style="display: inline-block; padding: 12px 20px; background: #667eea; color: white; border-radius: 4px; text-decoration: none; font-weight: 600;">▶ Watch Video 3</a>
   
   <p style="margin-top: 15px; color: #555; font-size: 14px;">
     <strong>Description:</strong> This is the oral presentation delivered at IROS 2024 introducing the paper on Mason's Voting Theorem for center of mass estimation. The presentation covers the theoretical foundations, methodological innovations, and experimental validation of the approach for robust object center of mass estimation during pure translational motion.
