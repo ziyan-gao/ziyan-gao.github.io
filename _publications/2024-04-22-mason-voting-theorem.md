@@ -99,6 +99,50 @@ citation: 'Gao, Z., Elibol, A., & Chong, N. Y. (2024). On the generality and app
   margin-bottom: 10px;
   color: #333;
 }
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.video-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.video-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.video-frame {
+  width: 100%;
+  height: 250px;
+  border: none;
+}
+
+.video-info {
+  padding: 15px;
+}
+
+.video-info h3 {
+  margin: 0 0 10px 0;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+}
+
+.video-info p {
+  margin: 0;
+  font-size: 13px;
+  color: #666;
+  line-height: 1.5;
+}
 </style>
 
 <div class="project-header">
@@ -139,32 +183,54 @@ This work extends Mason's Voting Theorem to object center of mass estimation dur
 
 ## 🎥 Demonstration Videos
 
-<div class="video-container">
-  <div class="video-title">Video 1: Center of Mass Estimation with Iterative Pushing</div>
-  <a href="https://1drv.ms/v/c/02d31ff9b580407b/IQACACWMGN-BQZLJ_a4BsSRtAXn4ixXG6ToyYI6bPsZx1pk?e=BwFEZi" target="_blank" style="display: inline-block; padding: 12px 20px; background: #667eea; color: white; border-radius: 4px; text-decoration: none; font-weight: 600;">▶ Watch Video 1</a>
-  
-  <p style="margin-top: 15px; color: #555; font-size: 14px;">
-    <strong>Description:</strong> This video demonstrates how the object center of mass (CoM) is estimated through iterative pusher-object interactions. The pushing actions are selected based on QP-EVT (Quadratic Program - Entropy and Variance Trade-off) based sampling strategy, which efficiently explores the object's contact surface to gather informative pushing "votes". The system uses vision sensing to track object motion and aggregates the voting results to accurately estimate the CoM without requiring prior knowledge of friction properties or object geometry.
-  </p>
+<div class="video-grid">
+  <div class="video-card">
+    <iframe class="video-frame" src="https://drive.google.com/file/d/1zIFgAjFvJ-sTZPEceSKhlwwCW_vCPm2a/preview" allow="autoplay"></iframe>
+    <div class="video-info">
+      <h3>Video 1</h3>
+      <p>Center of Mass Estimation with Iterative Pushing demonstration</p>
+    </div>
+  </div>
+  <div class="video-card">
+    <iframe class="video-frame" src="https://drive.google.com/file/d/1zXisrv5v5BCrk7-24e8J5M6QbaClIZQF/preview" allow="autoplay"></iframe>
+    <div class="video-info">
+      <h3>Video 2</h3>
+      <p>Center of Mass Estimation sequence</p>
+    </div>
+  </div>
+  <div class="video-card">
+    <iframe class="video-frame" src="https://drive.google.com/file/d/1aTa6SsWfE-DLuSPWleAzKINX-BRgyG8X/preview" allow="autoplay"></iframe>
+    <div class="video-info">
+      <h3>Video 3</h3>
+      <p>CoM Estimation experiment</p>
+    </div>
+  </div>
+  <div class="video-card">
+    <iframe class="video-frame" src="https://drive.google.com/file/d/1WnkGDtclRXXZZsDXie-ZdHbkn5RWZFV2/preview" allow="autoplay"></iframe>
+    <div class="video-info">
+      <h3>Video 4</h3>
+      <p>Pushing interaction sequence</p>
+    </div>
+  </div>
+  <div class="video-card">
+    <iframe class="video-frame" src="https://drive.google.com/file/d/1k8v-mnx2H5hh896nN9bOGuYRvztORY7O/preview" allow="autoplay"></iframe>
+    <div class="video-info">
+      <h3>Video 5</h3>
+      <p>Vision-based tracking demonstration</p>
+    </div>
+  </div>
+  <div class="video-card">
+    <iframe class="video-frame" src="https://drive.google.com/file/d/1TdB7I0KibhH6A98gS_y_n_aIcYFhNGfM/preview" allow="autoplay"></iframe>
+    <div class="video-info">
+      <h3>Video 6</h3>
+      <p>Final CoM estimation result</p>
+    </div>
+  </div>
 </div>
 
-<div class="video-container">
-  <div class="video-title">Video 2: Object Displacement to Target Location using Modified Zero Moment Two Edge Pushing</div>
-  <a href="https://1drv.ms/v/c/02d31ff9b580407b/IQA1ZEvS36mYR7nYT-AU1wVTAeSaNV02m1zEc9mNVwlqoMk?e=VzgPez" target="_blank" style="display: inline-block; padding: 12px 20px; background: #667eea; color: white; border-radius: 4px; text-decoration: none; font-weight: 600;">▶ Watch Video 2</a>
-  
-  <p style="margin-top: 15px; color: #555; font-size: 14px;">
-    <strong>Description:</strong> This video demonstrates how objects are efficiently displaced to target locations using modified zero moment two edge pushing. After the center of mass has been estimated using Mason Voting Theorem, the control strategy leverages this knowledge to plan and execute pushing motions that move the object to desired goal positions while maintaining stability and predictability throughout the manipulation task.
-  </p>
-</div>
-
-<div class="video-container">
-  <div class="video-title">Video 3: IROS 2024 Oral Presentation</div>
-  <a href="https://1drv.ms/v/c/02d31ff9b580407b/IQA8_wy67Y5dSrIAtE9WOHGkAYVyVU469YfOHOUW4GiBSf4?e=d91cYS" target="_blank" style="display: inline-block; padding: 12px 20px; background: #667eea; color: white; border-radius: 4px; text-decoration: none; font-weight: 600;">▶ Watch Video 3</a>
-  
-  <p style="margin-top: 15px; color: #555; font-size: 14px;">
-    <strong>Description:</strong> This is the oral presentation delivered at IROS 2024 introducing the paper on Mason's Voting Theorem for center of mass estimation. The presentation covers the theoretical foundations, methodological innovations, and experimental validation of the approach for robust object center of mass estimation during pure translational motion.
-  </p>
-</div>
+<p style="margin-top: 20px; color: #555; font-size: 14px; line-height: 1.6;">
+  <strong>Description:</strong> This video demonstrates how the object center of mass (CoM) is estimated through iterative pusher-object interactions. The pushing actions are selected based on QP-EVT (Quadratic Program - Entropy and Variance Trade-off) based sampling strategy, which efficiently explores the object's contact surface to gather informative pushing "votes". The system uses vision sensing to track object motion and aggregates the voting results to accurately estimate the CoM without requiring prior knowledge of friction properties or object geometry.
+</p>
 
 ## 📄 Publication Details
 
