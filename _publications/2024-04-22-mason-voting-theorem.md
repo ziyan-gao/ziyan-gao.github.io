@@ -157,6 +157,15 @@ This work extends Mason's Voting Theorem to object center of mass estimation dur
   </p>
 </div>
 
+<div class="video-container">
+  <div class="video-title">Video 3: IROS 2024 Oral Presentation</div>
+  <iframe src="https://1drv.ms/v/c/02d31ff9b580407b/IQA8_wy67Y5dSrIAtE9WOHGkAYVyVU469YfOHOUW4GiBSf4?e=sH2ilu&embed=true" width="100%" height="480" allow="autoplay"></iframe>
+  
+  <p style="margin-top: 15px; color: #555; font-size: 14px;">
+    <strong>Description:</strong> This is the oral presentation delivered at IROS 2024 introducing the paper on Mason's Voting Theorem for center of mass estimation. The presentation covers the theoretical foundations, methodological innovations, and experimental validation of the approach for robust object center of mass estimation during pure translational motion.
+  </p>
+</div>
+
 ## 📄 Publication Details
 
 **Authors:** Ziyan Gao, Alp Elibol, Nak Young Chong
