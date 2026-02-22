@@ -283,6 +283,20 @@ This work extends Mason's Voting Theorem to object center of mass estimation dur
   <strong>Description:</strong> These videos showcase pure translational motion of objects during pushing interactions. The contact configurations between the pusher and the object were sampled based on modified Zero Moment Two Edge Pushing (ZMTEP) method.
 </p>
 
+## 🎤 IROS 2024 Oral Presentation
+
+<div style="max-width: 800px; margin: 30px 0;">
+  <div style="background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);">
+    <iframe style="width: 100%; height: 400px; border: none;" src="https://drive.google.com/file/d/1pxgd5eh3JxayOsb291bAvU0z100FVJhn/preview" allow="autoplay"></iframe>
+  </div>
+  <div style="padding: 20px; background: #f8f9fa; border-radius: 0 0 8px 8px;">
+    <h3 style="margin: 0 0 10px 0; font-size: 18px; color: #333; font-weight: 600;">Oral Presentation at IROS 2024</h3>
+    <p style="margin: 0; font-size: 14px; color: #666; line-height: 1.6;">
+      This is the oral presentation of "On the generality and application of mason's voting theorem to center of mass estimation for pure translational motion" presented at the 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2024).
+    </p>
+  </div>
+</div>
+
 ## 📄 Publication Details
 
 **Authors:** Ziyan Gao, Alp Elibol, Nak Young Chong
