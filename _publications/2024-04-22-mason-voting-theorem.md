@@ -195,41 +195,92 @@ This work extends Mason's Voting Theorem to object center of mass estimation dur
     <iframe class="video-frame" src="https://drive.google.com/file/d/1zXisrv5v5BCrk7-24e8J5M6QbaClIZQF/preview" allow="autoplay"></iframe>
     <div class="video-info">
       <h3>Video 2</h3>
-      <p>Center of Mass Estimation sequence</p>
+      <p>Center of Mass Estimation with Iterative Pushing demonstration</p>
     </div>
   </div>
   <div class="video-card">
     <iframe class="video-frame" src="https://drive.google.com/file/d/1aTa6SsWfE-DLuSPWleAzKINX-BRgyG8X/preview" allow="autoplay"></iframe>
     <div class="video-info">
       <h3>Video 3</h3>
-      <p>CoM Estimation experiment</p>
+      <p>Center of Mass Estimation with Iterative Pushing demonstration</p>
     </div>
   </div>
   <div class="video-card">
     <iframe class="video-frame" src="https://drive.google.com/file/d/1WnkGDtclRXXZZsDXie-ZdHbkn5RWZFV2/preview" allow="autoplay"></iframe>
     <div class="video-info">
       <h3>Video 4</h3>
-      <p>Pushing interaction sequence</p>
+      <p>Center of Mass Estimation with Iterative Pushing demonstration</p>
     </div>
   </div>
   <div class="video-card">
     <iframe class="video-frame" src="https://drive.google.com/file/d/1k8v-mnx2H5hh896nN9bOGuYRvztORY7O/preview" allow="autoplay"></iframe>
     <div class="video-info">
       <h3>Video 5</h3>
-      <p>Vision-based tracking demonstration</p>
+      <p>Center of Mass Estimation with Iterative Pushing demonstration</p>
     </div>
   </div>
   <div class="video-card">
     <iframe class="video-frame" src="https://drive.google.com/file/d/1TdB7I0KibhH6A98gS_y_n_aIcYFhNGfM/preview" allow="autoplay"></iframe>
     <div class="video-info">
       <h3>Video 6</h3>
-      <p>Final CoM estimation result</p>
+      <p>Center of Mass Estimation with Iterative Pushing demonstration</p>
     </div>
   </div>
 </div>
 
 <p style="margin-top: 20px; color: #555; font-size: 14px; line-height: 1.6;">
   <strong>Description:</strong> This video demonstrates how the object center of mass (CoM) is estimated through iterative pusher-object interactions. The pushing actions are selected based on QP-EVT (Quadratic Program - Entropy and Variance Trade-off) based sampling strategy, which efficiently explores the object's contact surface to gather informative pushing "votes". The system uses vision sensing to track object motion and aggregates the voting results to accurately estimate the CoM without requiring prior knowledge of friction properties or object geometry.
+</p>
+
+## 🎬 Object Translation Videos
+
+<div class="video-grid">
+  <div class="video-card">
+    <iframe class="video-frame" src="https://drive.google.com/file/d/1HMyeN1WHSbfIPQrga6ogmKWSSzyLQd6l/preview" allow="autoplay"></iframe>
+    <div class="video-info">
+      <h3>Translation 1</h3>
+      <p>Pure translational motion demonstration</p>
+    </div>
+  </div>
+  <div class="video-card">
+    <iframe class="video-frame" src="https://drive.google.com/file/d/1yThwouZHcu5kH-oDD3LDYdp6vWrwLo_g/preview" allow="autoplay"></iframe>
+    <div class="video-info">
+      <h3>Translation 2</h3>
+      <p>Pure translational motion demonstration</p>
+    </div>
+  </div>
+  <div class="video-card">
+    <iframe class="video-frame" src="https://drive.google.com/file/d/17m1jSJtREG3CizrNqUutRcXrQC5q2fj4/preview" allow="autoplay"></iframe>
+    <div class="video-info">
+      <h3>Translation 3</h3>
+      <p>Pure translational motion demonstration</p>
+    </div>
+  </div>
+  <div class="video-card">
+    <iframe class="video-frame" src="https://drive.google.com/file/d/1ALwpiMiLoB4criFoXO6XFkTU1gQWi5m5/preview" allow="autoplay"></iframe>
+    <div class="video-info">
+      <h3>Translation 4</h3>
+      <p>Pure translational motion demonstration</p>
+    </div>
+  </div>
+  <div class="video-card">
+    <iframe class="video-frame" src="https://drive.google.com/file/d/1uuVp1B9Y5f4xR_EI_kKm_rAtDq2O2bz0/preview" allow="autoplay"></iframe>
+    <div class="video-info">
+      <h3>Translation 5</h3>
+      <p>Pure translational motion demonstrationn</p>
+    </div>
+  </div>
+  <div class="video-card">
+    <iframe class="video-frame" src="https://drive.google.com/file/d/1sncVoxXMFHATGlHRE5Sw2ZAdMY1AYftR/preview" allow="autoplay"></iframe>
+    <div class="video-info">
+      <h3>Translation 6</h3>
+      <p>Pure translational motion demonstration</p>
+    </div>
+  </div>
+</div>
+
+<p style="margin-top: 20px; color: #555; font-size: 14px; line-height: 1.6;">
+  <strong>Description:</strong> These videos showcase pure translational motion of objects during pushing interactions. The contact configurations between the pusher and the object were sampled based on modified Zero Moment Two Edge Pushing (ZMTEP) method.
 </p>
 
 ## 📄 Publication Details
