@@ -22,6 +22,12 @@ This work proposes a unified pushing policy that incorporates a lightweight prom
 - **Flow Matching Integration**: Uses flow matching policies to generate reactive, multimodal pushing behaviors
 - **VLM-guided Planning**: Demonstrates integration with Vision Language Model-based planning for table-cleaning tasks
 
+## Model Architecture
+
+![Model Architecture](/images/visual_prompt_guided.png)
+
+**Figure 1: Policy Architecture.** The input consists of the visual prompt and the latest T_obs steps of image data and robot proprioception. The policy is parameterized by a Diffusion Transformer with alternating self-attention and cross-attention DiT blocks to denoise action tokens A_0 into executable trajectories A_1.
+
 ## Demonstration Video
 
 For the demonstration video, please visit the [Google Drive link](https://drive.google.com/file/d/1of98ik3VuMLD4st9aUs8ivl2btBcp6Wk/view?usp=sharing) to view the full demonstration of our Visual Prompt Guided Unified Pushing Policy.
