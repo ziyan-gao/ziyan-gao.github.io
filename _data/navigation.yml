@@ -14,10 +14,7 @@ main:
   - title: "Teaching"
     url: /teaching/    
     
-  - title: "Portfolio"
-    url: /portfolio/
-    
-  - title: "Projects"
+  - title: "Implementations"
     url: /projects/
     
   - title: "CV"
