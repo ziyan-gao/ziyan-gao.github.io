@@ -2,13 +2,13 @@
 title: "Visual Prompt Guided Unified Pushing Policy"
 collection: publications
 category: manuscripts
-author_position: "Co-Author"
+author_position: "Co-Author with Equal Contribution & Co-Corresponding Author"
 permalink: /publication/2026-02-24-visual-prompt-pushing
 excerpt: 'Proposes a unified pushing policy that incorporates a lightweight prompting mechanism into a flow matching policy to guide reactive, multimodal pushing actions for object rearrangement and table-cleaning tasks.'
 date: 2026-02-24
 venue: 'arXiv preprint'
 paperurl: 'https://arxiv.org/abs/2602.19193'
-citation: 'Bui, H., Gao, Z., Hosoda, Y., & Lee, J. (2026). Visual Prompt Guided Unified Pushing Policy. arXiv preprint arXiv:2602.19193.'
+citation: 'Bui, H.*, Gao, Z.*, Hosoda, Y., & Lee, J. (2026). Visual Prompt Guided Unified Pushing Policy. arXiv preprint arXiv:2602.19193. (* Equal contribution, co-corresponding authors)'
 ---
 
 ## Overview
@@ -28,10 +28,14 @@ Watch the method in action: [Visual Prompt Guided Pushing Demo](https://drive.go
 
 ## Publication Details
 
-**Authors:** Hieu Bui, Ziyan Gao, Yuya Hosoda, Joo-Ho Lee
+**Authors:** Hieu Bui*, Ziyan Gao*, Yuya Hosoda, Joo-Ho Lee
+
+**Co-Corresponding Authors:** Hieu Bui & Ziyan Gao
 
 **Venue:** arXiv preprint
 
 **Publication Date:** 2026-02-24
 
 **arXiv:** [2602.19193](https://arxiv.org/abs/2602.19193)
+
+*Equal contribution
