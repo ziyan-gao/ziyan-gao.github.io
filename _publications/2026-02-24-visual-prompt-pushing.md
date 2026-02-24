@@ -24,7 +24,7 @@ This work proposes a unified pushing policy that incorporates a lightweight prom
 
 ## Model Architecture
 
-![Model Architecture](/images/visual_prompt_guided.png)
+![Model Architecture](https://ziyan-gao.github.io/images/visual_prompt_guided.png)
 
 **Figure 1: Policy Architecture.** The input consists of the visual prompt and the latest T_obs steps of image data and robot proprioception. The policy is parameterized by a Diffusion Transformer with alternating self-attention and cross-attention DiT blocks to denoise action tokens A_0 into executable trajectories A_1.
 
