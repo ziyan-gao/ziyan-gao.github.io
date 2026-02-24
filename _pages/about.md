@@ -19,18 +19,24 @@ My current research interests include:
 - **Vision-based Robotic Control**: Using visual feedback to guide robotic manipulation tasks
 - **Machine Learning for Robotics**: Applying deep learning and neural networks to improve robotic perception and decision-making
 - **Multimodal Learning**: Integrating multiple sensory modalities for more effective robot control
-- **Adversarial Robustness**: Studying security vulnerabilities in robotic systems and developing defenses against attacks
 
 I am particularly interested in the intersection of computer vision, machine learning, and robotics, with applications to real-world robotic systems. My work aims to bridge the gap between theoretical advances in AI and practical robotic applications.
 
-## Research Areas
+## Specialized Research Fields
 
-- Object manipulation in high-clutter environments
-- Few-shot learning for robotic grasping
-- Vision-guided robot control
-- Deep learning for robotic perception
-- Security and robustness of robotic systems
+**Non-prehensile Manipulation**
+- Analytical and data-driven analysis of the under-actuated pusher-slider system
 
+**Object Physical Parameter Estimation**
+- Estimation of physical parameters for novel objects based on robot-object interaction
+
+**Data-driven Robotic Grasping**
+- Deep neural network training based on large-scale simulation data for robotic grasping
+
+**Robotic Bin Packing**
+- Heuristic integrated effective online bin packing using deep reinforcement learning
+
+---
 ---
 
 For more information about my research, please explore the [Publications](/publications/), [Teaching](/teaching/), and [Portfolio](/portfolio/) sections of this website.
