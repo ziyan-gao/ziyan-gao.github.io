@@ -137,25 +137,25 @@ The Zero Moment Two Edge Pushing method selects pushing configurations based on 
   <strong>Key Concept:</strong> The method pushes at two contact points positioned symmetrically with respect to the center of mass projection, creating equal and opposite moment components that cancel out, resulting in pure translation to the goal position.
 </div>
 
-## 🎥 Demonstration Videos
-
-<div class="video-container">
-  <div class="video-title">Video 2: Object Displacement to Target Position using Modified ZMTEP</div>
-  <iframe src="https://1drv.ms/v/c/02d31ff9b580407b/IQA1ZEvS36mYR7nYT-AU1wVTAeSaNV02m1zEc9mNVwlqoMk?e=bWoSHL&embed=true" width="100%" height="480" allow="autoplay"></iframe>
-  
-  <p style="margin-top: 15px; color: #555; font-size: 14px;">
-    <strong>Description:</strong> This video demonstrates the Zero Moment Two Edge Pushing (ZMTEP) method in action. Objects are precisely displaced from their initial positions to target locations marked by red dots. The pushing configuration at each step is selected based on the modified ZMTEP strategy, which uses the estimated center of mass to determine optimal contact points. The robot executes a series of coordinated pushing actions to navigate the object to the goal pose while maintaining rotational stability throughout the manipulation process.
-  </p>
-</div>
-
-## 📊 Conference Poster
+## 📊 Visual Summary
 
 <div style="max-width: 800px; margin: 30px 0;">
   <div style="background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);">
     <iframe src="https://ziyan-gao.github.io/images/zmtep.pdf#toolbar=1" style="width: 100%; height: 600px; border: none;"></iframe>
   </div>
   <p style="margin-top: 15px; color: #666; font-size: 14px; text-align: center;">
-    <strong>Conference Poster:</strong> Visual summary of the Zero Moment Two Edge Pushing research presented at a major robotics conference. <a href="https://ziyan-gao.github.io/images/zmtep.pdf" target="_blank" style="color: #667eea; text-decoration: none; font-weight: 600;">Download PDF</a>
+    <strong>Poster:</strong> Visual summary of this work. <a href="https://ziyan-gao.github.io/images/zmtep.pdf" target="_blank" style="color: #667eea; text-decoration: none; font-weight: 600;">Download PDF</a>
+  </p>
+</div>
+
+## 🎥 Pushing Priors Collection Procedure
+
+<div class="video-container">
+  <div class="video-title">Procedure for Collecting Pushing Priors and CoM Estimation</div>
+  <iframe src="https://drive.google.com/file/d/1vJib82rJOj_UKuzfhTVKo1g45HAox9IM/preview" style="width: 100%; height: 480px; border: none;" allow="autoplay"></iframe>
+  
+  <p style="margin-top: 15px; color: #555; font-size: 14px;">
+    <strong>Description:</strong> This video demonstrates the procedure for collecting pushing priors used in learning object motion dynamics. The robot systematically performs pushing interactions at various contact points and directions on the object surface. Through these interactions, the system learns how the object responds to different pushing actions and configurations. At the end of the procedure, the estimated center of mass is computed and displayed, showing how the accumulated pushing data is used to accurately determine the object's center of mass without prior knowledge of the object's properties.
   </p>
 </div>
 
