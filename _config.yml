@@ -230,6 +230,9 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
+  implementations:
+    output: true
+    permalink: /:collection/:path/
   talks:
     output: true
     permalink: /:collection/:path/
@@ -282,6 +285,15 @@ defaults:
       author_profile: true
       share: true
       comment: true
+  # _implementations
+  - scope:
+      path: ""
+      type: implementations
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
   # _talks
   - scope:
       path: ""
