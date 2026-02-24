@@ -2,7 +2,7 @@
 title: "Visual Prompt Guided Unified Pushing Policy"
 collection: publications
 category: manuscripts
-author_position: "Co-Author with Equal Contribution & Co-Corresponding Author"
+author_position: "Co-Author"
 permalink: /publication/2026-02-24-visual-prompt-pushing
 excerpt: 'Proposes a unified pushing policy that incorporates a lightweight prompting mechanism into a flow matching policy to guide reactive, multimodal pushing actions for object rearrangement and table-cleaning tasks.'
 date: 2026-02-24
@@ -24,7 +24,9 @@ This work proposes a unified pushing policy that incorporates a lightweight prom
 
 ## Demonstration Video
 
-<iframe src="https://drive.google.com/file/d/1of98ik3VuMLD4st9aUs8ivl2btBcp6Wk/preview" width="640" height="480" allow="autoplay"></iframe>
+For the demonstration video, please visit the [Google Drive link](https://drive.google.com/file/d/1of98ik3VuMLD4st9aUs8ivl2btBcp6Wk/view?usp=sharing) to view the full demonstration of our Visual Prompt Guided Unified Pushing Policy.
+
+Alternatively, you can watch the video directly if you have access to the shared file.
 
 ## Publication Details
 
