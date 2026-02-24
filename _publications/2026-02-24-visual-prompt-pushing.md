@@ -24,7 +24,7 @@ This work proposes a unified pushing policy that incorporates a lightweight prom
 
 ## Demonstration Video
 
-Watch the method in action: [Visual Prompt Guided Pushing Demo](https://drive.google.com/file/d/1of98ik3VuMLD4st9aUs8ivl2btBcp6Wk/view?usp=sharing)
+<iframe src="https://drive.google.com/file/d/1of98ik3VuMLD4st9aUs8ivl2btBcp6Wk/preview" width="640" height="480" allow="autoplay"></iframe>
 
 ## Publication Details
 
