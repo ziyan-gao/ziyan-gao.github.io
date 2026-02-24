@@ -159,6 +159,17 @@ The Zero Moment Two Edge Pushing method selects pushing configurations based on 
   </p>
 </div>
 
+## 🎯 Object Translation to Target Location
+
+<div class="video-container">
+  <div class="video-title">Object Translation using Zero Moment Two Edge Pushing</div>
+  <iframe src="https://drive.google.com/file/d/1Kdex5Aup78K01gG35Uns7WPIxAvx9kXX/preview" style="width: 100%; height: 480px; border: none;" allow="autoplay"></iframe>
+  
+  <p style="margin-top: 15px; color: #555; font-size: 14px;">
+    <strong>Description:</strong> This video demonstrates the Zero Moment Two Edge Pushing (ZMTEP) method applied to translate an object to a target location. Based on the estimated center of mass and the desired goal position, the robot applies coordinated pushing forces at two strategic contact points. These pushing configurations are designed to create equal and opposite moments that cancel out, resulting in pure translational motion without any unwanted rotation. The object is precisely guided from its initial position to the target location, demonstrating the effectiveness of the ZMTEP strategy in achieving rotation-free object manipulation.
+  </p>
+</div>
+
 ## 📄 Publication Details
 
 **Authors:** Ziyan Gao, Alp Elibol, Nak Young Chong
