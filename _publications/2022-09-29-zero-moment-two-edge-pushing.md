@@ -148,6 +148,17 @@ The Zero Moment Two Edge Pushing method selects pushing configurations based on 
   </p>
 </div>
 
+## 📊 Conference Poster
+
+<div style="max-width: 600px; margin: 30px 0; text-align: center;">
+  <div style="background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);">
+    <img src="https://ziyan-gao.github.io/images/zmtep.pdf" alt="ZMTEP Conference Poster" style="width: 100%; height: auto; display: block;">
+  </div>
+  <p style="margin-top: 15px; color: #666; font-size: 14px;">
+    <strong>Conference Poster:</strong> Visual summary of the Zero Moment Two Edge Pushing research presented at a major robotics conference.
+  </p>
+</div>
+
 ## 📄 Publication Details
 
 **Authors:** Ziyan Gao, Alp Elibol, Nak Young Chong
