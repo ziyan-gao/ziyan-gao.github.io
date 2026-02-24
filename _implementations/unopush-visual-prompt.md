@@ -1,6 +1,6 @@
 ---
 title: "UNO Push: Unified Nonprehensile Object Pushing"
-excerpt: "Implementation of UNO Push - Unified Nonprehensile Object Pushing via Non-Parametric Estimation and Model Predictive Control<br/><img src='/images/2026-02-24-unopush.gif'>"
+excerpt: "Implementation of UNO Push - Unified Nonprehensile Object Pushing via Non-Parametric Estimation and Model Predictive Control<br/><img src='/images/unopush.gif'>"
 collection: implementations
 date: 2026-02-24
 ---
@@ -14,6 +14,6 @@ This implementation demonstrates unified nonprehensile object pushing techniques
 
 ## Demo
 
-![UNO Push Demo](/images/2026-02-24-unopush.gif)
+![UNO Push Demo](/images/unopush.gif)
 
 The demo illustrates the system's ability to manipulate objects through nonprehensile pushing control using MPC-based planning and execution.
