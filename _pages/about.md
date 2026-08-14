@@ -39,4 +39,4 @@ I am particularly interested in the intersection of computer vision, machine lea
 ---
 ---
 
-For more information about my research, please explore the [Publications](/publications/), [Teaching](/teaching/), and [Portfolio](/portfolio/) sections of this website.
+For more information about my research, please explore the [Publications](/publications/), [Teaching](/teaching/), [Portfolio](/implementations/), and [researchmap](https://researchmap.jp/gao_ziyan) pages.
